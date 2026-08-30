@@ -29,3 +29,10 @@ footer{margin:12px 2% 0;padding:38px 7% 30px;border:1px solid rgba(88,216,255,.2
   bottom: 12%;
   z-index: 15;
 }
+.card h2 {
+  font-family: Orbitron, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #7bdfff !important;
+  letter-spacing: normal !important;
+}
