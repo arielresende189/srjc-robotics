@@ -54,3 +54,9 @@ footer{margin:12px 2% 0;padding:38px 7% 30px;border:1px solid rgba(88,216,255,.2
   bottom: 12%;
   z-index: 15;
 }
+.header-logo {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+}
