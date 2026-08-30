@@ -49,7 +49,7 @@ footer{margin:12px 2% 0;padding:38px 7% 30px;border:1px solid rgba(88,216,255,.2
 }
 .diagnostic {
   position: absolute;
-  left: 3%;
+  left: 42%;
   right: auto;
   bottom: 12%;
   z-index: 15;
