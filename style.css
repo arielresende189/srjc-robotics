@@ -1092,5 +1092,11 @@ footer a {
   box-sizing: border-box !important;
 }
 .challenge-content {
-  flex: 1 !important;
+  width: 100% !important;
+  height: 300px !important;
+  min-height: 300px !important;
+  max-height: 300px !important;
+  flex: 0 0 300px !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
 }
