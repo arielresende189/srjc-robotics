@@ -1056,19 +1056,7 @@ footer a {
   text-align: center;
   color: #78909a;
 }
-/* FINAL WEBSITE FIX */
 
-html,
-body {
-  margin: 0 !important;
-  padding: 0 !important;
-  background-color: #03080c !important;
-  background:
-    radial-gradient(circle at 60% 10%, #092130 0, transparent 28%),
-    #03080c !important;
-  color: #e9f5fa !important;
-  overflow-x: hidden;
-}
 /* FINAL CHALLENGE SIZE */
 
 .challenge-grid {
@@ -1100,52 +1088,4 @@ body {
 
 .challenge-content {
   flex: 1 !important;
-}
-/* ===== RESTORE DARK SITE BACKGROUND ===== */
-
-html {
-  background: #03080c !important;
-}
-
-body {
-  background:
-    radial-gradient(circle at 60% 10%, #092130 0, transparent 28%),
-    #03080c !important;
-  color: #e9f5fa !important;
-}
-
-main {
-  background: transparent !important;
-}
-
-.hero {
-  background: transparent !important;
-}
-
-.hero-copy {
-  background: transparent !important;
-}
-
-.hero-visual {
-  background: transparent !important;
-}
-
-section {
-  background: transparent !important;
-}
-
-.mission {
-  background: #07121a !important;
-}
-
-.challenge-section {
-  background: transparent !important;
-}
-
-.sponsors {
-  background: transparent !important;
-}
-
-footer {
-  background: #040c11 !important;
 }
