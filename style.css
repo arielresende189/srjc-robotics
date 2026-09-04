@@ -14,12 +14,10 @@
 
 html{scroll-behavior:smooth}
 
-body{
-  margin:0;
-  background:radial-gradient(circle at 60% 10%,#092130 0,transparent 28%),var(--bg);
-  color:var(--text);
-  font-family:Rajdhani,Arial;
-  overflow-x:hidden;
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body:before{
@@ -961,9 +959,12 @@ h1 em{
 .challenge-card {
   width: 100%;
   min-width: 0;
-  height: 500px;
+  height: 500px !important;
+  min-height: 0;
   overflow: hidden;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 }
 
@@ -984,6 +985,8 @@ h1 em{
 
 .challenge-content {
   padding: 28px;
+  flex: 1;
+  box-sizing: border-box;
 }
 
 .challenge-card h2 {
@@ -1002,12 +1005,13 @@ h1 em{
 /* FOOTER LAYOUT FIX */
 
 footer {
-  width: 100%;
-  margin: 12px 0 0;
-  padding: 38px 6% 55px;
+  width: 100vw;
+  max-width: none;
+  margin: 12px 0 0 0;
+  padding: 38px 7% 55px;
   border: 1px solid rgba(88,216,255,.25);
   display: grid !important;
-  grid-template-columns: 1.2fr .9fr .9fr 1.2fr !important;
+  grid-template-columns: 1.2fr .9fr .9fr 1.2fr;
   gap: 38px;
   position: relative;
   background: #040c11;
