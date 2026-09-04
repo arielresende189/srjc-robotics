@@ -677,3 +677,43 @@ footer{margin:12px 2% 0;padding:38px 7% 30px;border:1px solid rgba(88,216,255,.2
   }
 
 }
+.challenge-visual {
+  position: relative;
+  height: 205px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(88,216,255,.4);
+  background: #07151d;
+}
+
+.challenge-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: .9;
+}
+
+.challenge-visual::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      rgba(3,15,20,.08),
+      rgba(3,15,20,.35)
+    );
+  pointer-events: none;
+}
+
+.active-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 5;
+  padding: 7px 15px;
+  background: #00d878;
+  color: #00150b;
+  font: 700 11px Orbitron, sans-serif;
+  letter-spacing: 1px;
+  box-shadow: 0 0 15px rgba(0,216,120,.35);
+}
