@@ -504,11 +504,13 @@ h1 em{
 /* ABOUT */
 
 .mission{
-  margin:38px 4% 38px 0;
-  padding:42px;
-  display:grid;
-  grid-template-columns:42% 58%;
-  gap:25px;
+margin: 38px 0;
+padding: 42px 6%;
+display: grid;
+grid-template-columns: 42% 58%;
+gap: 25px;
+width: 100%;
+box-sizing: border-box;
 }
 
 .mission h2{
