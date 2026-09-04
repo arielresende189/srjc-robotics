@@ -999,3 +999,51 @@ h1 em{
     grid-template-columns: 1fr;
   }
 }
+/* FOOTER LAYOUT FIX */
+
+footer {
+  width: 100%;
+  margin: 12px 0 0;
+  padding: 38px 6% 55px;
+  border: 1px solid rgba(88,216,255,.25);
+  display: grid !important;
+  grid-template-columns: 1.2fr .9fr .9fr 1.2fr !important;
+  gap: 38px;
+  position: relative;
+  background: #040c11;
+  box-sizing: border-box;
+}
+
+footer h3 {
+  font: 14px Orbitron;
+  color: #7fdfff;
+}
+
+footer p,
+footer a {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #b5c4c9;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-logo {
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.socials {
+  display: flex;
+  gap: 9px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #78909a;
+}
