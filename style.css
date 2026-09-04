@@ -1056,3 +1056,48 @@ footer a {
   text-align: center;
   color: #78909a;
 }
+/* FINAL WEBSITE FIX */
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #03080c !important;
+  background:
+    radial-gradient(circle at 60% 10%, #092130 0, transparent 28%),
+    #03080c !important;
+  color: #e9f5fa !important;
+  overflow-x: hidden;
+}
+/* FINAL CHALLENGE SIZE */
+
+.challenge-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 24px !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  align-items: stretch !important;
+}
+
+.challenge-card {
+  width: 100% !important;
+  height: 575px !important;
+  min-height: 575px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+
+.challenge-visual {
+  height: 220px !important;
+  min-height: 220px !important;
+  flex-shrink: 0 !important;
+}
+
+.challenge-content {
+  flex: 1 !important;
+}
