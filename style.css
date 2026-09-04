@@ -956,23 +956,14 @@ box-sizing: border-box;
    CHALLENGES / UPDATES FIX
 ========================= */
 
-.challenge-grid {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-}
-
 .challenge-card {
   width: 100%;
   min-width: 0;
-  height: auto;
-  min-height: 0;
+  height: 450px;
   overflow: hidden;
   box-sizing: border-box;
 }
+
 
 .challenge-visual {
   width: 100%;
