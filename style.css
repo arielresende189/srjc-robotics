@@ -1061,31 +1061,36 @@ footer a {
 
 .challenge-grid {
   display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   gap: 24px !important;
   width: 100% !important;
   max-width: 1200px !important;
   margin: 0 auto !important;
-  align-items: stretch !important;
+  align-items: start !important;
 }
 
 .challenge-card {
   width: 100% !important;
   height: 520px !important;
   min-height: 520px !important;
+  max-height: 520px !important;
   margin: 0 !important;
   padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
   overflow: hidden !important;
+  box-sizing: border-box !important;
 }
 
 .challenge-visual {
+  width: 100% !important;
   height: 220px !important;
   min-height: 220px !important;
-  flex-shrink: 0 !important;
+  max-height: 220px !important;
+  flex: 0 0 220px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
 }
-
 .challenge-content {
   flex: 1 !important;
 }
