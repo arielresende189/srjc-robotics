@@ -17,6 +17,11 @@ html{scroll-behavior:smooth}
 body {
   margin: 0;
   width: 100%;
+  background:
+    radial-gradient(circle at 60% 10%, #092130 0, transparent 28%),
+    var(--bg);
+  color: var(--text);
+  font-family: Rajdhani, Arial, sans-serif;
   overflow-x: hidden;
 }
 
