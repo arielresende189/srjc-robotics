@@ -952,3 +952,56 @@ box-sizing: border-box;
 .nav .brand small{
   display:block!important;
 }
+/* =========================
+   CHALLENGES / UPDATES FIX
+========================= */
+
+.challenge-grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.challenge-card {
+  width: 100%;
+  min-width: 0;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.challenge-visual {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.challenge-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.challenge-content {
+  padding: 28px;
+}
+
+.challenge-card h2 {
+  margin: 12px 0;
+}
+
+.challenge-card p {
+  margin-bottom: 22px;
+}
+
+@media (max-width: 800px) {
+  .challenge-grid {
+    grid-template-columns: 1fr;
+  }
+}
